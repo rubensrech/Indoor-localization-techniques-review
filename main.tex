@@ -52,12 +52,14 @@
 \acmDOI{10.1145/1122445.1122456}
 
 %% These commands are for a PROCEEDINGS abstract or paper.
-\acmConference[Woodstock '18]{Woodstock '18: ACM Symposium on Neural
-  Gaze Detection}{June 03--05, 2018}{Woodstock, NY}
-\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
-  June 03--05, 2018, Woodstock, NY}
-\acmPrice{15.00}
-\acmISBN{978-1-4503-XXXX-X/18/06}
+% \acmConference[Woodstock '18]{Woodstock '18: ACM Symposium on Neural
+%   Gaze Detection}{June 03--05, 2018}{Woodstock, NY}
+% \acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%   June 03--05, 2018, Woodstock, NY}
+% \acmPrice{15.00}
+% \acmISBN{978-1-4503-XXXX-X/18/06}
+% Hide ACM Reference Format
+\settopmatter{printacmref=false}
 
 
 %%
@@ -96,8 +98,8 @@
 %% used to denote shared contribution to the research.
 \author{Rubens Luiz Rech Junior}
 \email{rluiz@rhrk.uni-kl.de}
-\author{Júlio César de Azeredo}
-\email{}
+\author{Julio Cesar de Azeredo}
+\email{deazered@rhrk.uni-kl.de}
 \author{Rodrigo Franzoi Scroferneker}
 \email{}
 \author{Leonardo Eich}
@@ -167,7 +169,7 @@
 %% other information printed in the page headers. This command allows
 %% the author to define a more concise list
 %% of authors' names for this purpose.
-\renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+\renewcommand{\shortauthors}{Rubens L. R. Junior, Júlio C. de Azeredo, Rodrigo F. Scroferneker, Leonardo Eich and Kavyashree Renukachari}
 
 \input{src/abstract}
 
@@ -208,7 +210,7 @@
 %%
 %% Keywords. The author(s) should pick words that accurately describe
 %% the work being presented. Separate the keywords with commas.
-\keywords{datasets, neural networks, gaze detection, text tagging}
+\keywords{indoor localization, ubiquitous computing, embedded systems}
 
 
 %%
@@ -217,6 +219,10 @@
 \maketitle
 
 \input{src/introduction}
+\input{src/background}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
 
 \end{document}
 \endinput
