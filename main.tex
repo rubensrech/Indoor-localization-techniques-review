@@ -33,7 +33,7 @@
 
 %%%% Generic manuscript mode, required for submission
 %%%% and peer review
-\documentclass[manuscript,screen]{acmart}
+\documentclass[manuscript,screen,nonacm]{acmart}
 
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
@@ -60,6 +60,9 @@
 % \acmISBN{978-1-4503-XXXX-X/18/06}
 % Hide ACM Reference Format
 \settopmatter{printacmref=false}
+
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference info
+\setcopyright{none}
 
 
 %%
@@ -108,7 +111,7 @@
 \email{}
 \affiliation{%
   \institution{Technische Universität Kaiserslautern}
-  \streetaddress{Erwin-Schrödinger-Straße 52}
+%   \streetaddress{Erwin-Schrödinger-Straße 52}
   \city{Kaiserslautern}
   \state{Rheinland-Pfalz}
   \postcode{67663}
