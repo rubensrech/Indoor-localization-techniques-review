@@ -26,8 +26,11 @@ The main advantage of this system is the possibility of using the same existing 
 
 \subsection{MotionStart magnetic tracker}
 % Cite paper
+MotionStart was conceived to be used in applications which demand high accuracy level. A fixed transmitting antenna generates DC magnetic-field pulses whose response is measured by the system in three orthogonal axes. These measurements are used to compute the position of the receiving antennas. The known and constant effect of the Earth's magnetic field must be taken into account and isolated in the equations.
 
+The accuracy achieved by this system is very high, on the order of less than 1 millimeter. However, metallic materials in the environment influence the measurements and tend to compromise this level of accuracy. Moreover, the high costs of this solution frequently make it unfeasible in many applications.
 
 \subsection{Easy Living}
 % Cite paper
-
+Also developed by Microsoft Research group, EasyLiving is one of the first systems that use computer vision technology to provide positioning capability. Further research on this technique % “Integrated Person Tracking Using Stereo, Color, and Pattern Detection,” 
+demonstrated that multimodal processing, like people and objects recognition, may significantly enhance accuracy, but it also increases computing burden. By the time the system was designated, the amount of computing power required for processing data from real-time 3D cameras exceeded the capabilities of most devices. Nevertheless, nowadays, the use of accelerators as GPUs and FPGAs can overcome this limitation.
