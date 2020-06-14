@@ -85,6 +85,8 @@
 %% the next command will enable that style.
 %%\citestyle{acmauthoryear}
 
+\graphicspath{{src/images/}}
+
 %%
 %% end of the preamble, start of the body of the document source.
 \begin{document}
@@ -105,7 +107,7 @@
 \author{Julio Cesar de Azeredo}
 \email{deazered@rhrk.uni-kl.de}
 \author{Rodrigo Franzoi Scroferneker}
-\email{}
+\email{rods@rhrk.uni-kl.de}
 \author{Leonardo Eich}
 \email{leoeich@rhrk.uni-kl.de}
 \author{Kavyashree Renukachari}
@@ -222,8 +224,8 @@
 %% information and builds the first part of the formatted document.
 \maketitle
 
-\input{src/introduction}
 \input{src/background}
+\input{src/novel-techniques}
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{references}

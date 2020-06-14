@@ -74,3 +74,291 @@
     url = {https://www.microsoft.com/en-us/research/publication/the-new-easyliving-project-at-microsoft-research/},
     pages = {5},
 }
+
+@article{Chen2017,
+abstract = {As the technique that determines the position of a target device based on wireless measurements, Wi-Fi localization is attracting increasing attention due to its numerous applications and the widespread deployment of Wi-Fi infrastructure. In this paper, we propose ConFi, the first convolutional neural network (CNN)-based Wi-Fi localization algorithm. Channel state information (CSI), which contains more position related information than traditional received signal strength, is organized into a time-frequency matrix that resembles image and utilized as the feature for localization. The ConFi models localization as a classification problem and addresses it with a five layer CNN that consists of three convolutional layers and two fully connected layers. The ConFi has a training stage and a localization stage. In the training stage, the CSI is collected at a number of reference points (RPs) and used to train the CNN via stochastic gradient descent algorithm. In the localization stage, the CSI of the target device is fed to the CNN and the localization result is calculated as the weighted centroid of the RPs with high output value. Extensive experiments are conducted to select appropriate parameters for the CNN and demonstrate the superior performance of the ConFi over existing methods.},
+author = {Chen, Hao and Zhang, Yifan and Li, Wei and Tao, Xiaofeng and Zhang, Ping},
+doi = {10.1109/ACCESS.2017.2749516},
+issn = {21693536},
+journal = {IEEE Access},
+keywords = {Wi-Fi localization,channel state information,convolutional neural network,pattern recognition},
+month = {sep},
+pages = {18066--18074},
+publisher = {Institute of Electrical and Electronics Engineers Inc.},
+title = {{ConFi: Convolutional Neural Networks Based Indoor Wi-Fi Localization Using Channel State Information}},
+volume = {5},
+year = {2017}
+}
+@article{Lee2019,
+abstract = {Various technologies such as WiFi, Bluetooth, and RFID are being used to provide indoor location-based services (LBS). In particular, a WiFi base using a WiFi AP already installed in an indoor space is widely applied, and the importance of indoor location recognition using deep running has emerged. In this study, we propose a WiFi-based indoor location recognition system using a smart watch, which is extended from an existing smartphone. Unlike the existing system, we use both the Received Signal Strength Indication (RSSI) and Basic Service Set Identifier (BSSID) to solve the problem of position recognition owing to the similar signal strength. By performing two times of filtering, we want to improve the execution time and accuracy through the learning of random forest based location awareness. In an unopened indoor space with five or more WiFi APs installed. Experiments were conducted by comparing the results according to the number of data for supposed system and a system based on existing WiFi fingerprint based random forest. The proposed system was confirmed to exhibit high performance in terms of execution time and accuracy. It has significance in that the system shows a consistent performance regardless of the number of data for location information.},
+author = {Lee, Sunmin and Kim, Jinah and Moon, Nammee},
+doi = {10.1186/s13673-019-0168-7},
+issn = {21921962},
+journal = {Human-centric Computing and Information Sciences},
+keywords = {Fingerprint,Indoor location recognition,Machine learning,Random forest,Smart watch},
+month = {dec},
+number = {1},
+pages = {1--14},
+publisher = {Springer Berlin Heidelberg},
+title = {{Random forest and WiFi fingerprint-based indoor location recognition system using smart watch}},
+volume = {9},
+year = {2019}
+}
+@article{Wang2016,
+abstract = {With the increasing demand of location-based services, indoor localization based on fingerprinting has become an increasingly important technique due to its high accuracy and low hardware requirement. In this paper, we propose PhaseFi, a fingerprinting system for indoor localization with calibrated channel state information (CSI) phase information. In PhaseFi, the raw phase information is first extracted from the multiple antennas and multiple subcarriers of the IEEE 802.11n network interface card by accessing the modified device driver. Then a linear transformation is applied to extract the calibrated phase information, which we prove to have a bounded variance. For the offline stage, we design a deep network with three hidden layers to train the calibrated phase data, and employ the weights of the deep network to represent fingerprints. A greedy learning algorithm is incorporated to train the weights layer-by-layer to reduce computational complexity, where a subnetwork between two consecutive layers forms a restricted Boltzmann machine. In the online stage, we use a probabilistic method based on the radial basis function for online location estimation. The proposed PhaseFi scheme is implemented and validated with extensive experiments in two representation indoor environments. It is shown to outperform three benchmark schemes based on CSI or received signal strength in both scenarios.},
+author = {Wang, Xuyu and Gao, Lingjun and Mao, Shiwen},
+doi = {10.1109/JIOT.2016.2558659},
+isbn = {9781479959525},
+issn = {23274662},
+journal = {IEEE Internet of Things Journal},
+keywords = {Channel state information (CSI),deep learning,fingerprinting,indoor localization,phase calibration},
+number = {6},
+pages = {1113--1123},
+publisher = {IEEE},
+title = {{CSI Phase Fingerprinting for Indoor Localization with a Deep Learning Approach}},
+volume = {3},
+year = {2016}
+}
+@inproceedings{Abbas2019,
+abstract = {Robust and accurate indoor localization has been the goal of several research efforts over the past decade. Due to the ubiquitous availability of WiFi indoors, many indoor localization systems have been proposed relying on WiFi fingerprinting. However, due to the inherent noise and instability of the wireless signals, the localization accuracy usually degrades and is not robust to dynamic changes in the environment.We present WiDeep, a deep learning-based indoor localization system that achieves a fine-grained and robust accuracy in the presence of noise. Specifically, WiDeep combines a stacked denoising autoencoders deep learning model and a probabilistic framework to handle the noise in the received WiFi signal and capture the complex relationship between the WiFi APs signals heard by the mobile phone and its location. WiDeep also introduces a number of modules to address practical challenges such as avoiding over-training and handling heterogeneous devices.We evaluate WiDeep in two testbeds of different sizes and densities of access points. The results show that it can achieve a mean localization accuracy of 2.64m and 1.21m for the larger and the smaller testbeds, respectively. This accuracy outperforms the state-of-the-art techniques in all test scenarios and is robust to heterogeneous devices.},
+author = {Abbas, Moustafa and Elhamshary, Moustafa and Rizk, Hamada and Torki, Marwan and Youssef, Moustafa},
+booktitle = {2019 IEEE International Conference on Pervasive Computing and Communications, PerCom 2019},
+doi = {10.1109/PERCOM.2019.8767421},
+file = {:C$\backslash$:/Users/JulioCesar/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Abbas et al. - 2019 - WiDeep WiFi-based accurate and robust indoor localization system using deep learning.pdf:pdf},
+isbn = {9781538691489},
+keywords = {Deep learning,Fingerprinting,Indoor,Localization,WiFi},
+month = {mar},
+publisher = {Institute of Electrical and Electronics Engineers Inc.},
+title = {{WiDeep: WiFi-based accurate and robust indoor localization system using deep learning}},
+year = {2019}
+}
+
+@inproceedings{cnn,
+    author = {Mittal, Ayush and Tiku, Saideep and Pasricha, Sudeep},
+    year = {2018},
+    month = {05},
+    pages = {117-122},
+    title = {Adapting Convolutional Neural Networks for Indoor Localization with Smart Mobile Devices},
+    doi = {10.1145/3194554.3194594}
+}
+
+@ARTICLE{real-dl,  
+    author={Z. {Chen} and M. I. {AlHajri} and M. {Wu} and N. T. {Ali} and R. M. {Shubair}},  
+    journal={IEEE Sensors Letters},   
+    title={A Novel Real-Time Deep Learning Approach for Indoor Localization Based on RF Environment Identification},   
+    year={2020},  
+    volume={4},  
+    number={6},  
+    pages={1-4},
+}
+
+@article{cascade,
+    author = {Alhajri, Mohamed and Ali, Nazar and Shubair, Raed},
+    year = {2019},
+    month = {05},
+    pages = {},
+    title = {Indoor Localization for IoT Using Adaptive Feature Selection: A Cascaded Machine Learning Approach},
+    journal = {IEEE Antennas and Wireless Propagation Letters},
+    doi = {10.1109/LAWP.2019.2915047}
+}
+
+@INPROCEEDINGS{ml,
+  author={D. {Mascharka} and E. {Manley}},
+  booktitle={2016 13th IEEE Annual Consumer Communications   Networking Conference (CCNC)}, 
+  title={LIPS: Learning Based Indoor Positioning System using mobile phone-based sensors}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={968-971},
+}
+
+@INPROCEEDINGS{dl,
+  author={G. {Félix} and M. {Siller} and E. N. {Álvarez}},
+  booktitle={2016 Eighth International Conference on Ubiquitous and Future Networks (ICUFN)}, 
+  title={A fingerprinting indoor localization algorithm based deep learning}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={1006-1011},
+}
+
+@article{alexNet,
+    author = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E.},
+    title = {ImageNet Classification with Deep Convolutional Neural Networks},
+    year = {2017},
+    issue_date = {June 2017},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {60},
+    number = {6},
+    issn = {0001-0782},
+    url = {https://doi.org/10.1145/3065386},
+    doi = {10.1145/3065386},
+    journal = {Commun. ACM},
+    month = may,
+    pages = {84–90},
+    numpages = {7}
+}
+
+@article{lenet,
+    author = {Lecun, Yann and Bottou, Leon and Bengio, Y. and Haffner, Patrick},
+    year = {1998},
+    month = {12},
+    pages = {2278 - 2324},
+    title = {Gradient-Based Learning Applied to Document Recognition},
+    volume = {86},
+    journal = {Proceedings of the IEEE},
+    doi = {10.1109/5.726791}
+}
+
+@article{pcc,
+    author = {J. Benesty, J. Chen, Y. Huang, I. Cohen},
+    year = {2009},
+    title = {Pearson Correlation Coefficient in Topics in Signal Processing},
+    volume = {2},
+    journal = {Springer}
+}
+
+@article{hp,
+    author = {G. Styan},
+    year = {1973},
+    title = {Hadamard products and multivariate statistical analysis in Linear Algebra and its Apps},
+    volume = {6},
+    journal = {Elsevier,}
+}
+
+@ARTICLE{cascade_ref1,
+    author={M. I. {AlHajri} and N. T. {Ali} and R. M. {Shubair}},
+    journal={IEEE Antennas and Wireless Propagation Letters}, 
+    title={Classification of Indoor Environments for IoT Applications: A Machine Learning Approach}, 
+    year={2018},
+    volume={17},
+    number={12},
+    pages={2164-2168},
+}
+  
+@INPROCEEDINGS{cascade-ref2,
+    author={M. I. {AlHajri} and N. T. {Ali} and R. M. {Shubair}},
+    booktitle={2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)}, 
+    title={A Machine Learning Approach for the Classification of Indoor Environments Using RF Signatures}, 
+    year={2018},
+    volume={},
+    number={},
+    pages={1060-1062},
+}
+
+@article{Xiao2018,
+    author={Xiao, Yalong
+    and Zhang, Shigeng
+    and Wang, Jianxin
+    and Zhu, Chengzhang},
+    title={A Novel Indoor Localization Algorithm for Efficient Mobility Management in Wireless Networks},
+    journal={Wireless Communications and Mobile Computing},
+    year={2018},
+    month={Jun},
+    day={03},
+    publisher={Hindawi},
+    volume={2018},
+    pages={9517942},
+    issn={1530-8669},
+    doi={10.1155/2018/9517942},
+    url={https://doi.org/10.1155/2018/9517942}
+}
+
+@inproceedings{arrayTrack,
+    author = {Jie Xiong and Kyle Jamieson},
+    title = {ArrayTrack: A Fine-Grained Indoor Location System},
+    booktitle = {Presented as part of the 10th {USENIX} Symposium on Networked Systems Design and Implementation ({NSDI} 13)},
+    year = {2013},
+    isbn = {978-1-931971-00-3},
+    address = {Lombard, IL},
+    pages = {71--84},
+    url = {https://www.usenix.org/conference/nsdi13/technical-sessions/presentation/xiong},
+    publisher = {{USENIX}},
+}
+
+@article{us-cdma,
+    title = "A novel acoustic indoor localization system employing CDMA",
+    journal = "Digital Signal Processing",
+    volume = "22",
+    number = "3",
+    pages = "506 - 517",
+    year = "2012",
+    issn = "1051-2004",
+    doi = "https://doi.org/10.1016/j.dsp.2011.12.001",
+    url = "http://www.sciencedirect.com/science/article/pii/S1051200411001941",
+    author = "Cem Sertatıl and Mustafa A. Altınkaya and Kosai Raoof",
+    keywords = "Acoustic localization, DS-CDMA, Spread spectrum, Indoor localization, Time of arrival",
+}
+
+@article{dolphin,
+    title = "A novel acoustic indoor localization system employing CDMA",
+    journal = "Digital Signal Processing",
+    volume = "22",
+    number = "3",
+    pages = "506 - 517",
+    year = "2012",
+    issn = "1051-2004",
+    doi = "https://doi.org/10.1016/j.dsp.2011.12.001",
+    url = "http://www.sciencedirect.com/science/article/pii/S1051200411001941",
+    author = "Cem Sertatıl and Mustafa A. Altınkaya and Kosai Raoof",
+    keywords = "Acoustic localization, DS-CDMA, Spread spectrum, Indoor localization, Time of arrival",
+}
+
+@INPROCEEDINGS{occ-burbano,
+  author={P. {Chavez-Burbano} and V. {Guerra} and J. {Rabadan} and C. {Jurado-Verdu} and R. {Perez-Jimenez}},
+  booktitle={2018 11th International Symposium on Communication Systems, Networks   Digital Signal Processing (CSNDSP)}, 
+  title={Novel Indoor Localization System Using Optical Camera Communication}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-5},
+}
+@article{brunato2005statistical,
+  title={Statistical learning theory for location fingerprinting in wireless LANs},
+  author={Brunato, Mauro and Battiti, Roberto},
+  journal={Computer Networks},
+  volume={47},
+  number={6},
+  pages={825--845},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@Article{vlc-survey,
+    author={Do, Trong-Hop
+    and Yoo, Myungsik},
+    title={An in-Depth Survey of Visible Light Communication Based Positioning Systems},
+    journal={Sensors (Basel, Switzerland)},
+    year={2016},
+    month={May},
+    day={12},
+    publisher={MDPI},
+    volume={16},
+    number={5},
+    pages={678},
+    keywords={*image sensor; *light-emitting diode, photodiode; *positioning; *survey; *visible light communication},
+    note={27187395[pmid]},
+    note={PMC4883369[pmcid]},
+    note={s16050678[PII]},
+    issn={1424-8220},
+    doi={10.3390/s16050678},
+    url={https://pubmed.ncbi.nlm.nih.gov/27187395},
+    url={https://doi.org/10.3390/s16050678},
+    language={eng}
+}
+@inproceedings{fifs,
+  title={FIFS: Fine-grained indoor fingerprinting system},
+  author={Xiao, Jiang and Wu, Kaishun and Yi, Youwen and Ni, Lionel M},
+  booktitle={2012 21st international conference on computer communications and networks (ICCCN)},
+  pages={1--7},
+  year={2012},
+  organization={IEEE}
+}
+@inproceedings{horus,
+  title={The Horus WLAN location determination system},
+  author={Youssef, Moustafa and Agrawala, Ashok},
+  booktitle={Proceedings of the 3rd international conference on Mobile systems, applications, and services},
+  pages={205--218},
+  year={2005}
+}
